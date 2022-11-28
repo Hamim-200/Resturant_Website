@@ -159,7 +159,6 @@ header .icons #menu-bars {
     gap: 1.5rem;
     min-height: 100vh;
     align-items: center;
-    /* background: url(../images/home-bg.jpg) no-repeat; */
     background-image: url(../images/home-bg.jpg);
     background-size: cover;
     background-position: center;
@@ -194,12 +193,13 @@ header .icons #menu-bars {
 
 .home .content h3 {
     font-size: 5rem;
-    color: #333;
+    color: var(--green);
 }
 
 .home .content p {
     font-size: 1.7rem;
-    color: #666;
+    /* color: #666; */
+    color: var(--black);
     padding: 1rem 0;
 }
 
